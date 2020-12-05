@@ -1,0 +1,47 @@
+.editor {
+  min-height: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0.5px solid lightgray;
+  border-top: 0px;
+}
+.editor > li {
+  list-style: square;
+  margin: initial;
+}
+#title {
+  width: 95%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 135px;
+  font-size: 40px;
+}
+.editor:focus,
+#title:focus {
+  outline: none;
+}
+
+.codeBlock {
+  background-color: rgb(21, 34, 75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+  min-height: 39px;
+  font-family: "Courier New", Courier, monospace;
+  overflow: auto;
+  color: white;
+  padding: 8px;
+}
+
+.btn {
+  color: #fff;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-shadow: none;
+}
+.btn i {
+  color: black;
+}
